@@ -4,7 +4,7 @@ helm_build_push(){
   FN=${NAME}-${VER}.tgz
   rm ${FN}
   helm package ./install --version ${VER}
-  curl --data-binary "@${FN}" http://helm.klogsolenopsys.org/api/charts
+  curl --data-binary "@${FN}" http://helm.solenopsys.org/api/charts
 }
 
 NAME=solenopsys-ds-clickhouse

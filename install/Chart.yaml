@@ -2,7 +2,7 @@ apiVersion: v2
 name: solenopsys-ds-clickhouse
 version: 0.1.3
 description: Clickhouse db
-icon: "http://klogsolenopsys.org/apps/assets/solenopsys-ds-clickhouse.svg"
+icon: "http://solenopsys.org/apps/assets/solenopsys-ds-clickhouse.svg"
 appVersion: 1.0.0
 
 
